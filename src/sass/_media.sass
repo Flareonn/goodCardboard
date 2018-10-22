@@ -1,0 +1,275 @@
+@media (max-width: 1200px)
+	.main
+		&-text
+			&__title
+				font-size: 39px
+			&__subtitle
+				font-size: 27px
+		&-img
+			&__wrap
+				margin-left: -60%
+	.form
+		&-title
+			font-size: 18px
+
+@media (width: 992px)
+	.main
+		&-img
+			&__wrap
+				width: 290px
+				height: 290px
+				top: -110px
+				margin-left: -36%
+	.window
+		width: 80%
+
+@media (max-width: 992px)
+	.hidden-mobile
+		display: block
+	.button__big
+		padding: 13px 20px
+	.header
+		&__logo
+			background-size: 90%
+		&-contacts
+			&__btn
+				font-size: 12px
+				padding: 10px 12px
+			&__phone
+				font-size: 20px
+	.main
+		padding-top: 40px
+		padding-bottom: 35px
+		&-text
+			&__title
+				font-size: 30px
+			&__subtitle
+				font-size: 20px
+				margin-bottom: 10px
+			&__form
+				padding: 15px 27px
+		&-img
+			&__wrap
+				width: 290px
+				height: 290px
+				top: -100px
+				&::after
+					margin-top: 67%
+	.form
+		&-title
+			margin-bottom: 5px
+		&_small
+			font-size: 14px
+			margin-left: 0
+	.window
+		width: 576px
+		&-title
+			font-size: 19px
+		&-main
+			padding: 35px 38px
+		&-form
+			&__header
+				font-size: 26px
+			&__label
+				font-size: 18px
+				margin-top: 13px
+			&__input
+				margin-bottom: 10px
+		
+@media (width: 768px)
+	.button__big
+		display: block
+		width: 100%
+	.hidden-mobile
+		display: block
+	.header
+		&-contacts
+			&__phone
+				&s
+					display: block
+				font-size: 18px
+	.main
+		&-img
+			&__wrap
+				margin-left: -50%
+		&-text
+			&__title
+				font-size: 26px
+			&__subtitle
+				font-size: 20px
+	.form
+		display: block
+		&-title
+			&__input
+				display: block
+				width: 100%
+				margin-bottom: 10px
+		&_small
+			margin-left: 0
+
+@media (max-width: 768px)
+	.hidden-mobile
+		display: none
+	.button
+		padding: 15px 50px
+		&__big
+			display: block
+			width: 35%
+	.header
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				&__fat
+					font-weight: 900
+				&:first-child
+					border: none
+					padding-right: 0
+				font-size: 18px
+	.main
+		text-align: center
+		padding-top: 60px
+		&-img
+			&__wrap
+				margin-left: -38%
+				position: relative
+				top: 0
+				height: 390px
+				width: 390px
+		&-text
+			&__title
+				color: $active-color
+			&__subtitle
+				margin-bottom: 20px
+		.form
+			justify-content: center
+			&-title
+				font-size: 15px
+	.window
+		width: 80%
+		&-title
+			font-size: 17px
+			min-height: 58px
+			line-height: 58px
+			height: 58px
+  &-main
+  	padding: 25px 58px 30px 58px
+  &-close
+  	font-weight: 400
+  &-form
+  	&__header
+  		font-size: 24px
+  	&__small
+  		font-size: 18px
+  		display: block
+  	&__label
+  		font-size: 14px
+  	&__input
+  		margin-right: 0
+  		width: 80%
+  		margin-bottom: 10px
+
+@media (max-width: 576px)
+	.button
+		&__big
+			display: inline-block
+			font-size: 15px
+			padding: 19px 29px
+			width: 50%
+	.hidden-mobile
+		display: none
+	.header
+		&__logo
+			background: $active-color url(../img/header-logo-mobile.png) center no-repeat
+			width: 35px
+			height: 35px
+			border-radius: 4px
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				&__fat
+					font-weight: 900
+				font-size: 14px
+				margin-right: 14px
+				&:first-child
+					border: none
+					padding-right: 0
+			&__btn
+				display: inline-block
+				padding: 7px
+	.main
+		padding-top: 50px
+		&-img
+			display: none
+		&-text
+			text-align: center
+			&__title
+				font-size: 22px
+				font-weight: 700
+				line-height: 24px
+				color: $active-color
+			&__subtitle
+				font-size: 18px
+				font-weight: 400
+				margin-bottom: 40px
+			&__form
+				background-color: transparent
+				padding: 0
+	.form
+		display: block
+		margin-bottom: 16px
+		&-title
+			padding-right: 0
+			font-weight: 300
+			line-height: 18px
+			font-size: 15px
+			margin-bottom: 16px
+			&__import
+				margin-top: 12px
+				font-weight: 700
+			&__input
+				width: 80%
+				text-align: center
+				margin-bottom: 13px
+				margin-right: 0
+		&_small
+			font-size: 13px
+			font-weight: 300
+			line-height: 30px
+			margin-left: 0
+			margin-bottom: 58px
+	.window
+		width: 78%
+		&-title
+			font-size: 14px
+			min-height: 48px
+			height: 48px
+			line-height: 48px
+		&-main
+			padding: 15px 8px 30px 8px
+		&-form
+			&__header
+				font-size: 18px
+			&__small
+				display: block
+				font-size: 14px
+			&__label
+				margin-top: 10px
+				font-size: 16px
+				margin-bottom: 5px
+			&__input
+				width: 90%
+				height: 40px
+				margin-right: 0
+				margin-bottom: 10px
+			&__btn
+				padding: 15px 19px
+			&__note
+				margin-top: 5px
+				font-size: 13px
+
+@media (width: 320px)
+	.button
+		&__big
+			width: auto
